@@ -62,6 +62,10 @@ OR (recommended on Windows):
 
 py filename.py
 
+Example: py 01-first-code.py
+
+![run_python_code](image-1.png)
+
 ### 🔹 Method 2: Using Run Button
 
 #### Way 1: 
