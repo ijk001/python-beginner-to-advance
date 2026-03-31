@@ -14,9 +14,7 @@ Step 2: Download the latest version of Python
 
 👉 Download:
 - Python 3.x.x (recommended)
- 
- Or,
-
+Or,
 - Python Install Manager (optional)
 
 Step 3: Install Python
@@ -55,9 +53,9 @@ General command:
 
 Examples:
 
-```pip install numpy        # numerical computing
-   pip install pandas       # data analysis and handling
-   pip install matplotlib   # data visualization```
+```pip install numpy        # numerical computing```
+```pip install pandas       # data analysis and handling```
+```pip install matplotlib   # data visualization```
 
 Optional (for Reinforcement Learning):
 ```pip install gymnasium    # RL environments (e.g., CartPole)```
