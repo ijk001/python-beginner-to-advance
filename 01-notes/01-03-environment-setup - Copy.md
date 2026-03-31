@@ -12,43 +12,51 @@ File → New File
 
 👉 Select file type: Python (if prompted)
 
-Step 2: Write code
-print("Hello, Python World! 🚀")
+Step 2: Write the code
+
+print("Hello, Python World!")
+
 Step 3: Save the file
+
 File → Save As
 
 ✔ Save with .py extension
-Example:
 
-01-first-code.py
+Example: 01-first-code.py
 
 ### 🔹 Case 2: Open an Existing File
-Way 1:
-Right Click file → Open with VS Code
-Way 2:
-VS Code → File → Open File → Select .py file
+
+Way 1: Right Click file → Open with VS Code
+
+Way 2: In VS Code → File → Open File → Select .py file from the folder it is
 
 ---
 
 ## ▶️ Part 2: Running a Python File
 
 ### 🔹 Method 1: Using Terminal
+
 Step 1: Open terminal
+
 Terminal → New Terminal
+
 Step 2: Go to file directory
+
 cd <file_directory>
 
 Example:
 
 cd C:\Users\jahid\github-projects\python-beginner-to-advance\02-exercises
+
 Step 3: Run the file
+
 python filename.py
 
 OR (recommended on Windows):
 
 py filename.py
 
-🔹 Method 2: Using Run Button
+### 🔹 Method 2: Using Run Button
 Way 1:
 
 Click the ▶️ Run button (top right)
