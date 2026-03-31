@@ -6,17 +6,17 @@
 
 ### 🔹 Case 1: Create a New File
 
-Step 1: Create file in VS Code
+#### Step 1: Create file in VS Code
 
 File → New File
 
 👉 Select file type: Python (if prompted)
 
-Step 2: Write the code
+#### Step 2: Write the code
 
 print("Hello, Python World!")
 
-Step 3: Save the file
+#### Step 3: Save the file
 
 File → Save As
 
@@ -24,11 +24,17 @@ File → Save As
 
 Example: 01-first-code.py
 
+---
+
 ### 🔹 Case 2: Open an Existing File
 
-Way 1: Right Click file → Open with VS Code
+#### Way 1: 
 
-Way 2: In VS Code → File → Open File → Select .py file from the folder it is
+Right Click file → Open with VS Code
+
+#### Way 2: 
+
+In VS Code → File → Open File → Select the .py file from its folder
 
 ---
 
@@ -36,11 +42,11 @@ Way 2: In VS Code → File → Open File → Select .py file from the folder it 
 
 ### 🔹 Method 1: Using Terminal
 
-Step 1: Open terminal
+#### Step 1: Open terminal
 
 Terminal → New Terminal
 
-Step 2: Go to file directory
+#### Step 2: Go to file directory
 
 cd <file_directory>
 
@@ -48,7 +54,7 @@ Example:
 
 cd C:\Users\jahid\github-projects\python-beginner-to-advance\02-exercises
 
-Step 3: Run the file
+#### Step 3: Run the file
 
 python filename.py
 
@@ -57,17 +63,19 @@ OR (recommended on Windows):
 py filename.py
 
 ### 🔹 Method 2: Using Run Button
-Way 1:
+
+#### Way 1: 
 
 Click the ▶️ Run button (top right)
 
-Way 2:
+#### Way 2: 
+
 Right Click on the Code Script  → Run Python File in Terminal
 
 ---
 
 ### ⚠️ Important Notes
-Run from correct directory
+In VS Code Terminal, Run from correct directory:
 cd <folder_where_file_exists>
 
 ---
