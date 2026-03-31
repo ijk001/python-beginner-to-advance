@@ -14,7 +14,9 @@ Step 2: Download the latest version of Python
 
 👉 Download:
 - Python 3.x.x (recommended)
+
 Or,
+
 - Python Install Manager (optional)
 
 Step 3: Install Python
@@ -54,10 +56,13 @@ General command:
 Examples:
 
 ```pip install numpy        # numerical computing```
+
 ```pip install pandas       # data analysis and handling```
+
 ```pip install matplotlib   # data visualization```
 
 Optional (for Reinforcement Learning):
+
 ```pip install gymnasium    # RL environments (e.g., CartPole)```
 
 ---
@@ -69,7 +74,9 @@ Step 1: Download: https://code.visualstudio.com/
 Step 2: Install
 
 During installation:
+
 ✔ Add to PATH
+
 ✔ Add "Open with Code"
 
 ---
