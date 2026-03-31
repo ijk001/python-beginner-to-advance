@@ -14,7 +14,7 @@
 
 👉 Download:
 - Python 3.x.x (recommended)
-O,R
+Or,
 - Python Install Manager (optional)
 
 Step 3: Install Python
@@ -24,39 +24,38 @@ IMPORTANT:
 
 ---
 
-### Option 2: PowerShell (Windows)
+### Option 2: In PowerShell (Windows) / Terminal
 
-powershell
 ### Step 1: Search available Python versions
-winget search Python
+```winget search Python```
 
 ### Step 2: Install using exact version from search result
-winget install Python.Python.<version>
+```winget install Python.Python.<version found in Step 1>```
 
 ---
 
 ✅ Verify Installation
-python --version
+
+```python --version```
 
 If not working:
 
-py --version
+```py --version```
 
 ---
 
-📚 Install Libraries: Command at powershell/terminal
+📚 Install Libraries (in PowerShell/Terminal)
 
 General command: pip install <library_name>
 
 Examples:
 
-pip install numpy           # for ?
-pip install pandas          # for ?
-pip install matplotlib      # for ?
+pip install numpy        # numerical computing
+pip install pandas       # data analysis and handling
+pip install matplotlib   # data visualization
 
-Optional (for RL):
-
-pip install gymnasium       # for 
+Optional (for Reinforcement Learning):
+pip install gymnasium    # RL environments (e.g., CartPole)
 
 ---
 
@@ -70,7 +69,7 @@ During installation:
 
 ---
 
-🔌 Install Python Extension
+🔌 Install Python Extension in VS Code
 
 Open VS Code → Extensions → Search: Python
 
