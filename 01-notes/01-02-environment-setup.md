@@ -14,7 +14,9 @@ Step 2: Download the latest version of Python
 
 👉 Download:
 - Python 3.x.x (recommended)
+ 
  Or,
+
 - Python Install Manager (optional)
 
 Step 3: Install Python
@@ -27,14 +29,16 @@ IMPORTANT:
 ### Option 2: In PowerShell (Windows) / Terminal
 
 Step 1: Search available Python versions
- ```winget search Python```
+
+```winget search Python```
 
 Step 2: Install using exact version from search result
- ```winget install Python.Python.<version found in Step 1>```
+
+```winget install Python.Python.<version found in Step 1>```
 
 ---
 
-### ✅ Verify Installation
+### ✅ Verify Installation (in PowerShell/Terminal)
 
 ```python --version```
 
@@ -61,7 +65,9 @@ pip install gymnasium    # RL environments (e.g., CartPole)
 
 ### 💻 Install VS Code
 
-Download: https://code.visualstudio.com/
+Step 1: Download: https://code.visualstudio.com/
+
+Step 2: Install
 
 During installation:
 ✔ Add to PATH
