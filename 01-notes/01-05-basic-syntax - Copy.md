@@ -101,20 +101,19 @@ Without indentation → ❌ Error
 if age >= 18:
 print("Adult")
 ```
+
 ---
 
-### 🔤 Case Sensitivity
+🔤 Case Sensitivity
 
 Python is case-sensitive.
 
 Example:
-```
 name = "Imran"
 Name = "Jahid"
 
 print(name)
 print(Name)
-```
 
 👉 These are treated as different variables
 
@@ -125,24 +124,21 @@ print(Name)
 Each line is usually one statement.
 
 Example:
-```
 x = 10
 y = 20
 print(x + y)
-```
+
 ---
 
-### Multiple Statements in One Line
+### ➕ 6. Multiple Statements in One Line
 
-Multiple statements in single line can be written ; (but not recommended).
+You can write multiple statements using ; (not recommended).
 
-```x = 10; y = 20; print(x + y)```
+x = 10; y = 20; print(x + y)
 
 👉 Better to use separate lines for readability
 
----
-
-### 🔗 Line Continuation
+🔗 7. Line Continuation
 
 Used to break long lines into multiple lines.
 
@@ -152,47 +148,20 @@ total = 10 + 20 + 30 + \
 Using parentheses (recommended):
 total = (10 + 20 + 30 +
          40 + 50)
-### 🔠 Strings and Quotes
+🔠 8. Strings and Quotes
 
-Strings can be written using both double and single quote:
-```
+Strings can be written using:
+
 "Hello"
 'Hello'
-```
-Multi-line string is written within tripple quote:
-```
+Multi-line string:
 text = """This is
 a multi-line
 string"""
-```
-or,
-text = '''This is
-a multi-line
-string'''
-
----
-
-### 🎯 Basic Output Formatting
-
-🔹 1. Comma Formatting (Basic Print)
-```
+🎯 9. Basic Output Formatting
+Example:
 name = "Imran"
-print("Name:", name)
-```
-"Name:" → string (fixed text)
-name → variable
-, → separates items in print()
-
-
-🔹 2. f-String Formatting (Modern Way)
-```
 age = 25
+
+print("Name:", name)
 print(f"My age is {age}")
-```
-f"" → formatted string
-"My age is " → string
-{age} → variable inserted inside string
-
-👉 Python replaces {age} with its value
-
----
