@@ -6,9 +6,9 @@
 
 ### Option 1: Manual
 
-### Step 1: Go to official Python website: https://www.python.org/downloads/
+Step 1: Go to official Python website: https://www.python.org/downloads/
 
-### Step 2: Download the latest version of Python 
+Step 2: Download the latest version of Python 
 
 ![install-python](image.png)
 
@@ -26,10 +26,10 @@ IMPORTANT:
 
 ### Option 2: In PowerShell (Windows) / Terminal
 
-### Step 1: Search available Python versions
+Step 1: Search available Python versions
 ```winget search Python```
 
-### Step 2: Install using exact version from search result
+Step 2: Install using exact version from search result
 ```winget install Python.Python.<version found in Step 1>```
 
 ---
