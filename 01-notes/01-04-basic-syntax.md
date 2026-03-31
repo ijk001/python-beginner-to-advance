@@ -18,11 +18,11 @@ or,
 
 Explanation:
 
-print() is a built-in function
+- print() is a built-in function
 
-Text inside quotes is called a string
+- Text inside quotes is called a string
 
-can be used both single or double quote
+- can be used both single or double quote
 
 Output: 
 ```Hello, World!```
@@ -78,7 +78,7 @@ print("Hello")
 Inline comment:
 ```print("Hello")  # This prints Hello```
 
-### 📌 Indentation (VERY IMPORTANT)
+## 📌 Indentation (VERY IMPORTANT)
 
 Python uses indentation (spaces) to define blocks of code.
 
@@ -103,7 +103,7 @@ print("Adult")
 ```
 ---
 
-### 🔤 Case Sensitivity
+## 🔤 Case Sensitivity
 
 Python is case-sensitive.
 
@@ -120,7 +120,7 @@ print(Name)
 
 ---
 
-📦 Statements & Lines
+## 📦 Statements & Lines
 
 Each line is usually one statement.
 
@@ -132,7 +132,7 @@ print(x + y)
 ```
 ---
 
-### Multiple Statements in One Line
+## Multiple Statements in One Line
 
 Multiple statements in single line can be written ; (but not recommended).
 
@@ -142,7 +142,7 @@ Multiple statements in single line can be written ; (but not recommended).
 
 ---
 
-### 🔗 Line Continuation
+## 🔗 Line Continuation
 
 Used to break long lines into multiple lines.
 
@@ -152,7 +152,10 @@ total = 10 + 20 + 30 + \
 Using parentheses (recommended):
 total = (10 + 20 + 30 +
          40 + 50)
-### 🔠 Strings and Quotes
+
+---
+
+## 🔠 Strings and Quotes
 
 Strings can be written using both double and single quote:
 ```
@@ -172,9 +175,9 @@ string'''
 
 ---
 
-### 🎯 Basic Output Formatting
+## 🎯 Basic Output Formatting
 
-🔹 1. Comma Formatting (Basic Print)
+### 🔹 1. Comma Formatting (Basic Print)
 ```
 name = "Imran"
 print("Name:", name)
@@ -184,7 +187,7 @@ name → variable
 , → separates items in print()
 
 
-🔹 2. f-String Formatting (Modern Way)
+### 🔹 2. f-String Formatting (Modern Way)
 ```
 age = 25
 print(f"My age is {age}")
