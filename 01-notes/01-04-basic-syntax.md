@@ -174,9 +174,11 @@ a multi-line
 string"""
 ```
 or,
+```
 text = '''This is
 a multi-line
 string'''
+```
 
 ---
 
@@ -187,9 +189,9 @@ string'''
 name = "Imran"
 print("Name:", name)
 ```
-"Name:" → string (fixed text)
-name → variable
-, → separates items in print()
+- "Name:" → string (fixed text)
+- name → variable
+- , → separates items in print()
 
 
 ### 🔹 2. f-String Formatting (Modern Way)
@@ -197,10 +199,10 @@ name → variable
 age = 25
 print(f"My age is {age}")
 ```
-f"" → formatted string
-"My age is " → string
-{age} → variable inserted inside string
+- f"" → formatted string
+- "My age is " → string
+- {age} → variable inserted inside string
 
-👉 Python replaces {age} with its value
+- 👉 Python replaces {age} with its value
 
 ---
