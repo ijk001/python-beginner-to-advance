@@ -42,11 +42,11 @@ print(name)
 
 Explanation:
 
-input() waits for user input
+- input() waits for user input
 
-The text inside " " is a prompt
+- The text inside " " is a prompt
 
-The entered value is stored in the variable
+- The entered value is stored in the variable
 
 ⚠️ Important: input() Always Returns String
 
@@ -58,7 +58,7 @@ print(type(age))
 Output: 
 ```<class 'str'>```
 
-👉 Even if you enter a number, it is stored as a string
+👉 Even a number is entered, it will be stored as a string
 
 ---
 
@@ -76,13 +76,14 @@ print("Hello")
 ```
 
 Inline comment:
+
 ```print("Hello")  # This prints Hello```
 
 ## 📌 Indentation (VERY IMPORTANT)
 
 Python uses indentation (spaces) to define blocks of code.
 
-Example:
+### Example:
 ```
 age = 18
 
@@ -92,11 +93,11 @@ if age >= 18:
 
 Explanation:
 
-The indented line belongs to the if block
+- The indented line belongs to the if block
 
-Without indentation → ❌ Error
+- Without indentation → ❌ Error
 
-❌ Wrong:
+### ❌ Wrong:
 ```
 if age >= 18:
 print("Adult")
@@ -107,7 +108,7 @@ print("Adult")
 
 Python is case-sensitive.
 
-Example:
+### Example:
 ```
 name = "Imran"
 Name = "Jahid"
@@ -124,7 +125,7 @@ print(Name)
 
 Each line is usually one statement.
 
-Example:
+### Example:
 ```
 x = 10
 y = 20
@@ -147,11 +148,15 @@ Multiple statements in single line can be written ; (but not recommended).
 Used to break long lines into multiple lines.
 
 Using backslash:
+```
 total = 10 + 20 + 30 + \
         40 + 50
+```
 Using parentheses (recommended):
+```
 total = (10 + 20 + 30 +
          40 + 50)
+```
 
 ---
 
