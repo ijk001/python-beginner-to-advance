@@ -50,16 +50,17 @@ If not working:
 
 ### 📚 Install Libraries (in PowerShell/Terminal)
 
-General command: pip install <library_name>
+General command: 
+```pip install <library_name>```
 
 Examples:
 
-pip install numpy        # numerical computing
-pip install pandas       # data analysis and handling
-pip install matplotlib   # data visualization
+```pip install numpy        # numerical computing
+   pip install pandas       # data analysis and handling
+   pip install matplotlib   # data visualization```
 
 Optional (for Reinforcement Learning):
-pip install gymnasium    # RL environments (e.g., CartPole)
+```pip install gymnasium    # RL environments (e.g., CartPole)```
 
 ---
 
