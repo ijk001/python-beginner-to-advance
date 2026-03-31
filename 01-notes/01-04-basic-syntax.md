@@ -4,28 +4,73 @@ Python syntax is the set of rules that define how Python code is written and int
 
 ---
 
-## 🖨️ 1. print() Function
+## 🖨️ print() Function
 
 Used to display output on the screen.
 
 ### Example:
-```python
-print("Hello, World!")
+
+```print("Hello, World!")```
+
 Explanation:
 print() is a built-in function
 Text inside quotes is called a string
+
 Output:
 Hello, World!
-💬 2. Comments
+
+---
+
+## ⌨️ input() Function
+
+The `input()` function is used to take input from the user.
+
+---
+
+### 🔹 Basic Example
+
+```
+name = input("Enter your name: ") 
+
+print(name)
+
+```
+
+Explanation:
+
+input() waits for user input
+
+The text inside " " is a prompt
+
+The entered value is stored in the variable
+
+⚠️ Important: input() Always Returns String
+
+age = input("Enter your age: ")
+
+print(type(age))
+
+Output: <class 'str'>
+
+👉 Even if you enter a number, it is stored as a string
+
+---
+
+## 💬 Comments
 
 Comments are used to explain code. They are ignored by Python.
 
-Single-line comment:
+Single-line comment: # is used for comment
+
+``` 
 # This is a comment
 print("Hello")
+```
+
 Inline comment:
 print("Hello")  # This prints Hello
-📌 3. Indentation (VERY IMPORTANT)
+
+### 📌 Indentation (VERY IMPORTANT)
 
 Python uses indentation (spaces) to define blocks of code.
 
@@ -34,13 +79,17 @@ age = 18
 
 if age >= 18:
     print("Adult")
+
 Explanation:
 The indented line belongs to the if block
 Without indentation → ❌ Error
 ❌ Wrong:
 if age >= 18:
 print("Adult")
-🔤 4. Case Sensitivity
+
+---
+
+🔤 Case Sensitivity
 
 Python is case-sensitive.
 
@@ -53,7 +102,9 @@ print(Name)
 
 👉 These are treated as different variables
 
-📦 5. Statements & Lines
+---
+
+📦 Statements & Lines
 
 Each line is usually one statement.
 
@@ -61,7 +112,10 @@ Example:
 x = 10
 y = 20
 print(x + y)
-➕ 6. Multiple Statements in One Line
+
+---
+
+### ➕ 6. Multiple Statements in One Line
 
 You can write multiple statements using ; (not recommended).
 
