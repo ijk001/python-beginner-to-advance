@@ -6,22 +6,34 @@
 
 ### Option 1: Manual
 
-1. Download:
+Step 1: Go to official Python website  
 https://www.python.org/downloads/
 
-2. Install Python
+Step 2: Download the latest version of Python
+
+![install-python](image.png)
+
+👉 Download:
+- Python 3.x.x (recommended)
+- OR Python Install Manager (optional)
+
+Step 3: Install Python
 
 IMPORTANT:
-✔ Check "Add Python to PATH"
+✔ Check "Add Python to PATH" before clicking Install
 
 ---
 
 ### Option 2: PowerShell (Windows)
 
 ```powershell
-winget install Python.Python.3
+# Step 1: Search available Python versions
+winget search Python
 
-Verify Installation
+# Step 2: Install using exact version from search result
+winget install Python.Python.<version>
+
+✅ Verify Installation
 python --version
 
 If not working:
@@ -50,8 +62,17 @@ NOTE:
 Python extension does NOT install Python
 
 📚 Install Libraries
-pip install numpy pandas matplotlib
 
-Optional (RL):
+General command:
+
+pip install <library_name>
+
+Examples:
+
+pip install numpy
+pip install pandas
+pip install matplotlib
+
+Optional (for RL):
 
 pip install gymnasium
