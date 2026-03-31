@@ -1,4 +1,6 @@
-# 🐍 What is Python?
+# 🐍 01-01: Python
+
+## 🐍 What is Python?
 
 Python is a **high-level, interpreted programming language** used to build a wide variety of applications.
 

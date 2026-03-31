@@ -1,4 +1,4 @@
-# 🧪 01-01 Environment Setup
+# 🧪 01-02: Environment Setup
 
 ---
 
