@@ -1,4 +1,4 @@
-# 🧠 01-05 Variables & Data Types
+# 🧠 01-05: Variables & Data Types
 
 ---
 
