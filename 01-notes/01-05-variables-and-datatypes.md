@@ -30,6 +30,9 @@ _marks = 90
 ```
 2age = 25      # cannot start with a number
 user-name = 10 # hyphen not allowed
+3 = num        # not allowed, varibale has to be in the left
+_3 = 10        # **legal**, but not recommended
+
 ```
 ### 🔹 Naming Rules
 - Only letters (a–z, A–Z), digits (0–9), and **underscore (_) **are allowed in variable names
