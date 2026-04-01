@@ -11,6 +11,7 @@ input() is used to take input from the user through the keyboard.
 - Optional message (prompt) can be shown to guide the user
 
 ✅ Syntax
+
 ```input("message to user")```
 
 ✅ Example
@@ -25,9 +26,10 @@ print("Hello", name)
 - print() displays the result
 
 ⚠️ Important Note
+
 ```age = input("Enter age: ")```
 
-- **Even if the user enters 25, Python stores it as: "25"   # string, not integer **
+- Even if the user enters 25, Python stores it as: "25"   # string, not integer
 
 ### 📌 Taking Multiple Inputs
 🔹 Simple Way
@@ -71,10 +73,12 @@ num = int(input("Enter a number: "))
 print(num + 5)
 ```
 ### 🔹 Common Conversion Functions
-Function	Description	Example
-int()	Converts to integer	int("10") → 10
-float()	Converts to decimal	float("3.5") → 3.5
-str()	Converts to string	str(100) → "100"
+
+| Function | Description            | Example                  |
+|----------|------------------------|--------------------------|
+| `int()`  | Converts to integer    | `int("10") → 10`         |
+| `float()`| Converts to decimal    | `float("3.5") → 3.5`     |
+| `str()`  | Converts to string     | `str(100) → "100"`       |
 
 🔹 Float Example
 ```
@@ -112,6 +116,7 @@ age = 25
 print("Name:", name, "Age:", age)
 
 👉 Output:
+
 ```Name: Imran Age: 25```
 
 ### ⚙️ Important Parameters of print()
