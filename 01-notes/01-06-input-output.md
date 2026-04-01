@@ -204,6 +204,7 @@ b = 5
 
 print(f"Sum = {a + b}")
 ```
+---
 
 ### Formatting Numbers using f-Strings
 
@@ -221,6 +222,7 @@ print(f"{pi:.2f}")
 ```
 
 👉 Output:
+
 ```3.14```
 
 💡 Explanation
@@ -237,6 +239,7 @@ print(f"{num:.2f}")
 ```
 
 👉 Output:
+
 ```5.00```
 
 #### 🔹 1.2 Width & Alignment
@@ -275,6 +278,7 @@ num = 7
 print(f"{num:05}")
 ```
 👉 Output:
+
 ```00007```
 
 ### 🔹 1.4 Comma Separator
@@ -285,6 +289,7 @@ print(f"{num:,}")
 ```
 
 👉 Output:
+
 ```1,000,000```
 
 ### 🔹 1.5 Percentage Formatting
@@ -294,6 +299,7 @@ value = 0.85
 print(f"{value:.2%}")
 ```
 👉 Output:
+
 ```85.00%```
 
 ### 🔹 1.6 Scientific Notation
@@ -303,6 +309,7 @@ num = 123456
 print(f"{num:.2e}")
 ```
 👉 Output:
+
 ```1.23e+05```
 
 ### 🔹 1.7 Combining Everything
@@ -313,6 +320,7 @@ print(f"{num:,.2f}")
 ```
 
 👉 Output:
+
 ```12,345.68```
 
 ---
