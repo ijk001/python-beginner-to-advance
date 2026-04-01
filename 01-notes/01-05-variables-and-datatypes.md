@@ -48,7 +48,7 @@ a = 5
 b = 3.14
 c = "Hello"
 ```
-- Python automatically determines the data type of the assigned value.
+- **Python automatically determines the data type of the assigned value.**
 
 ### 🔄 Multiple Assignment
 
